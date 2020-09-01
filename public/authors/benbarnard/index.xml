@@ -12,5 +12,13 @@
       <link>https://benbarnard.bearstatistics.com/authors/benbarnard/</link>
     </image>
     
+    <item>
+      <title>Automated Building and Storing Frozen Data in R Packages Using Travis and Drat.</title>
+      <link>https://benbarnard.bearstatistics.com/talk/2019csp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benbarnard.bearstatistics.com/talk/2019csp/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

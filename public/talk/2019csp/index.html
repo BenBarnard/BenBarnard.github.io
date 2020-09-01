@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="An example talk using Academic&#39;s Markdown slides feature.">
+  <meta name="description" content="Clean, accessible, frozen data can be hard to come by in the wild and you will hear terms such as &#34;as is&#34; or &#34;as was&#34;. Database direct access can be like using a tank to kill a mosquito. We propose using travis and the drat R package to automatically build a version controlled frozen data R package repository. Package builds can be setup to automatically access secure databases, clean data, and tranform data on a monthly, daily, and yearly basis to freeze data in a R data package. We walk through this process and give examples of using these frozen R data pacakges to build automated reports, ad hoc analyses, and audit previous data processes. With the addition of travis we can build, check and deploy our packages. We can also automate the process of checking data merging conflicts with previous frozen versions such as the movement of business entities in the business heirarchy. We finally conclude with a proposed process workflow to implement and deploy this automate repository.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://benbarnard.bearstatistics.com/talk/2019csp/">
@@ -114,14 +114,12 @@
   
   <meta property="og:site_name" content="BenBarnard.BearStatistics.com">
   <meta property="og:url" content="https://benbarnard.bearstatistics.com/talk/2019csp/">
-  <meta property="og:title" content="Example Talk | BenBarnard.BearStatistics.com">
-  <meta property="og:description" content="An example talk using Academic&#39;s Markdown slides feature."><meta property="og:image" content="https://benbarnard.bearstatistics.com/img/icon-192.png">
+  <meta property="og:title" content="Automated Building and Storing Frozen Data in R Packages Using Travis and Drat. | BenBarnard.BearStatistics.com">
+  <meta property="og:description" content="Clean, accessible, frozen data can be hard to come by in the wild and you will hear terms such as &#34;as is&#34; or &#34;as was&#34;. Database direct access can be like using a tank to kill a mosquito. We propose using travis and the drat R package to automatically build a version controlled frozen data R package repository. Package builds can be setup to automatically access secure databases, clean data, and tranform data on a monthly, daily, and yearly basis to freeze data in a R data package. We walk through this process and give examples of using these frozen R data pacakges to build automated reports, ad hoc analyses, and audit previous data processes. With the addition of travis we can build, check and deploy our packages. We can also automate the process of checking data merging conflicts with previous frozen versions such as the movement of business entities in the business heirarchy. We finally conclude with a proposed process workflow to implement and deploy this automate repository."><meta property="og:image" content="https://benbarnard.bearstatistics.com/img/icon-192.png">
   <meta property="twitter:image" content="https://benbarnard.bearstatistics.com/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2017-01-01T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2030-06-01T13:00:00&#43;00:00">
   
 
   
@@ -142,26 +140,15 @@
     "@type": "WebPage",
     "@id": "https://benbarnard.bearstatistics.com/talk/2019csp/"
   },
-  "name": "Example Talk",
+  "name": "Automated Building and Storing Frozen Data in R Packages Using Travis and Drat.",
   
   "location": {
     "@type": "Place",
-    "name": "Source Themes HQ",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "450 Serra Mall",
-      "addressLocality": "Stanford",
-      "postalCode": "94305",
-      "addressRegion": "CA",
-      "addressCountry": "United States"
-    }
-    
+    "name": "New Orleans, Louisiana"
   },
   
   
-  "startDate": "2030-06-01T13:00:00Z",
-  
-  "endDate": "2030-06-01T15:00:00Z",
+  "startDate": "0001-01-01T00:00:00Z",
   
   
   "performer": {
@@ -169,7 +156,7 @@
     "name": "Ben Barnard"
   },
   
-  "description": "An example talk using Academic's Markdown slides feature."
+  "description": "Clean, accessible, frozen data can be hard to come by in the wild and you will hear terms such as \"as is\" or \"as was\". Database direct access can be like using a tank to kill a mosquito. We propose using travis and the drat R package to automatically build a version controlled frozen data R package repository. Package builds can be setup to automatically access secure databases, clean data, and tranform data on a monthly, daily, and yearly basis to freeze data in a R data package. We walk through this process and give examples of using these frozen R data pacakges to build automated reports, ad hoc analyses, and audit previous data processes. With the addition of travis we can build, check and deploy our packages. We can also automate the process of checking data merging conflicts with previous frozen versions such as the movement of business entities in the business heirarchy. We finally conclude with a proposed process workflow to implement and deploy this automate repository."
 }
 </script>
 
@@ -185,7 +172,7 @@
 
 
 
-  <title>Example Talk | BenBarnard.BearStatistics.com</title>
+  <title>Automated Building and Storing Frozen Data in R Packages Using Travis and Drat. | BenBarnard.BearStatistics.com</title>
 
 </head>
 
@@ -441,7 +428,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Example Talk</h1>
+  <h1>Automated Building and Storing Frozen Data in R Packages Using Travis and Drat.</h1>
 
   
 
@@ -453,6 +440,19 @@
 
   
   
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/benbarnard/">Ben Barnard</a></span>
+
+  </div>
+  
+  
 
   
 
@@ -482,59 +482,6 @@
 
 
 
-
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>
-    Follow
-  </a>
-
-
-</div>
 
 
   
@@ -545,8 +492,7 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.</p>
+      <br>
     
 
     <div class="row">
@@ -555,7 +501,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Jun 1, 2030 1:00 PM &mdash; 3:00 PM
+            Jan 1, 0001 12:00 AM
           </div>
         </div>
       </div>
@@ -570,8 +516,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Event</div>
           <div class="col-12 col-md-9">
-            <a href="https://example.org" target="_blank" rel="noopener">
-            Academic Theme Conference
+            <a href="https://ww2.amstat.org/meetings/csp/2019/" target="_blank" rel="noopener">
+            Conferenece on Statistical Practice
             </a>
           </div>
         </div>
@@ -587,10 +533,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Source Themes HQ</div>
-          
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-9">450 Serra Mall, Stanford, CA 94305</div>
+          <div class="col-12 col-md-9">New Orleans, Louisiana</div>
           
         </div>
       </div>
@@ -602,15 +545,7 @@
     <div class="space-below"></div>
 
     <div class="article-style">
-      <!-- raw HTML omitted -->
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Academic&rsquo;s <a href="https://sourcethemes.com/academic/docs/managing-content/#create-slides"><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/">shortcodes</a>.</li>
-</ul>
-<p>Further talk details can easily be added to this page using <em>Markdown</em> and $\rm \LaTeX$ math code.</p>
-
+      
     </div>
 
     
@@ -632,7 +567,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://benbarnard.bearstatistics.com/talk/2019csp/&amp;text=Example%20Talk" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://benbarnard.bearstatistics.com/talk/2019csp/&amp;text=Automated%20Building%20and%20Storing%20Frozen%20Data%20in%20R%20Packages%20Using%20Travis%20and%20Drat." target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -645,7 +580,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://benbarnard.bearstatistics.com/talk/2019csp/&amp;t=Example%20Talk" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://benbarnard.bearstatistics.com/talk/2019csp/&amp;t=Automated%20Building%20and%20Storing%20Frozen%20Data%20in%20R%20Packages%20Using%20Travis%20and%20Drat." target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -658,7 +593,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Example%20Talk&amp;body=https://benbarnard.bearstatistics.com/talk/2019csp/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Automated%20Building%20and%20Storing%20Frozen%20Data%20in%20R%20Packages%20Using%20Travis%20and%20Drat.&amp;body=https://benbarnard.bearstatistics.com/talk/2019csp/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -671,7 +606,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://benbarnard.bearstatistics.com/talk/2019csp/&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://benbarnard.bearstatistics.com/talk/2019csp/&amp;title=Automated%20Building%20and%20Storing%20Frozen%20Data%20in%20R%20Packages%20Using%20Travis%20and%20Drat." target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -684,7 +619,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Example%20Talk%20https://benbarnard.bearstatistics.com/talk/2019csp/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Automated%20Building%20and%20Storing%20Frozen%20Data%20in%20R%20Packages%20Using%20Travis%20and%20Drat.%20https://benbarnard.bearstatistics.com/talk/2019csp/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -697,7 +632,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://benbarnard.bearstatistics.com/talk/2019csp/&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://benbarnard.bearstatistics.com/talk/2019csp/&amp;title=Automated%20Building%20and%20Storing%20Frozen%20Data%20in%20R%20Packages%20Using%20Travis%20and%20Drat." target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -716,6 +651,10 @@
 
 
 
+  
+  
+    
+  
   
 
 
@@ -813,9 +752,6 @@
 
     
     
-    
-    <script src="/js/mathjax-config.js"></script>
-    
 
     
     
@@ -836,8 +772,6 @@
       
 
       
-      
-      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
 
