@@ -3,15 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://benbarnard.bearstatistics.com/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://benbarnard.bearstatistics.com/talk/2019csp/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://benbarnard.bearstatistics.com/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://benbarnard.bearstatistics.com/authors/benbarnard/</loc>
   </url>
   
   <url>
     <loc>https://benbarnard.bearstatistics.com/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://benbarnard.bearstatistics.com/</loc>
   </url>
   
   <url>
@@ -60,10 +71,6 @@
   
   <url>
     <loc>https://benbarnard.bearstatistics.com/tags/r-package/</loc>
-  </url>
-  
-  <url>
-    <loc>https://benbarnard.bearstatistics.com/talk/</loc>
   </url>
   
   <url>
