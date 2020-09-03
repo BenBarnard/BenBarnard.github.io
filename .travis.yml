@@ -1,15 +1,8 @@
-language: r
 dist: xenial
-latex: false
 
 branches:
   only:
     - master
-
-cache:
-  packages: yes
-  directories:
-    - $HOME/bin
 
 deploy:
   provider: pages
