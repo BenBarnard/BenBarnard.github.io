@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://benbarnard.bearstatistics.com/</loc>
+  </url>
+  
+  <url>
     <loc>https://benbarnard.bearstatistics.com/authors/benbarnard/</loc>
   </url>
   
@@ -12,10 +16,6 @@
   
   <url>
     <loc>https://benbarnard.bearstatistics.com/talk/2019csp/</loc>
-  </url>
-  
-  <url>
-    <loc>https://benbarnard.bearstatistics.com/</loc>
   </url>
   
   <url>
