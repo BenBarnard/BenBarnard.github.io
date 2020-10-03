@@ -32,7 +32,6 @@ date_format = "Jan 2006"
   * Developer of 20 internal R packages using agile development with 2-week sprints and daily asynchronous stand-ups in Skype chat groups.
   * Enterprise Product Steward for R and Rtools monitoring intake and maintenance of new versions, and mitigating security vulnerabilities for ∼2500 installs across the enterprise.
   * Led transformation of team to use software development life-cycle appropriate tools such as GitHub, Jenkins, and Artifactory.
-  * Led the creation of Human Resources Modeling Center of Excellence that centralized Human Resource model development (100+ automated production models), and streamlined recruitment of new data scientists.
   """
 
 [[experience]]
