@@ -4,18 +4,47 @@
   
   <url>
     <loc>https://benbarnard.bearstatistics.com/</loc>
+    <lastmod>2020-08-03T10:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://benbarnard.bearstatistics.com/authors/benbarnard/</loc>
+    <lastmod>2020-08-03T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://benbarnard.bearstatistics.com/talk/2020jsm/</loc>
+    <lastmod>2020-08-03T10:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://benbarnard.bearstatistics.com/authors/</loc>
+    <lastmod>2020-08-03T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://benbarnard.bearstatistics.com/talk/</loc>
+    <lastmod>2020-08-03T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://benbarnard.bearstatistics.com/talk/2020rstudio/</loc>
+    <lastmod>2020-01-30T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://benbarnard.bearstatistics.com/talk/2019jsm/</loc>
+    <lastmod>2019-08-01T08:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://benbarnard.bearstatistics.com/talk/2019miami/</loc>
+    <lastmod>2019-03-15T14:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://benbarnard.bearstatistics.com/talk/2019csp/</loc>
+    <lastmod>2019-02-15T14:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -64,10 +93,6 @@
   
   <url>
     <loc>https://benbarnard.bearstatistics.com/tags/r-package/</loc>
-  </url>
-  
-  <url>
-    <loc>https://benbarnard.bearstatistics.com/talk/</loc>
   </url>
   
   <url>
