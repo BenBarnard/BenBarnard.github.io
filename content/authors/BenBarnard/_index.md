@@ -74,4 +74,4 @@ email: "benbarnard87@gmail.com"
 #- Visitors
 ---
 
-Ben Barnard is a Data Scientist for Wells Fargo and a Statistics Instructor for the University of South Alabama. His research interests include Bayesian methods, statistical programming, teaching statistics, and using common sense in data science. He currently leads the development of several R and python packages for internal Wells Fargo use. Outside of work Ben likes to spend time with his family, working on the house, competing in triathlons, and speaking at conferences.  
+Ben Barnard is a Data Scientist at Wells Fargo and a Statistics Instructor at the University of South Alabama. His research interests include Bayesian methods, statistical programming, teaching statistics, and using common sense in data science. He currently leads the development of several R and python packages, and production models at Wells Fargo. Outside of work Ben likes to spend time with his family, working on the house, competing in triathlons, and speaking at conferences.  
